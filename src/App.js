@@ -16,7 +16,7 @@ import CardDeck from 'react-bootstrap/CardDeck';
 function Educate (props) {
     return(
         <>
-            <p className="sectionSubtitle last">Education is the first step to positive change, hopefully this page will give you some pointers on what you can do to be that change.</p>
+            <p className="sectionSubtitle last">Education is the first step to positive change, hopefully this page will give you some pointers on what you can do to contribute to that change.</p>
             <div className="cardContainer">
                 <CardDeck>
                     <Card style={{ width: '18rem' }}>
@@ -171,6 +171,7 @@ function App () {
                         <Route path="/">
                             <>
                                 <Header />
+                                <p className="sectionSubtitle">For change to happen action is required. Learn about the problems, contribute to the solutions with your time and/or money.</p>
                             </>
                         </Route>
                     </Switch>
