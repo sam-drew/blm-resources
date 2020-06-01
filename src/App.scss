@@ -6,6 +6,9 @@
     align-items: center;
     justify-content: center;
     margin: 5px;
+    width: -webkit-calc(100% - 10px);
+    width:    -moz-calc(100% - 10px);
+    width:         calc(100% - 10px);
 }
 
 .App-header {

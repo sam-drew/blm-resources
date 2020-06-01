@@ -19,7 +19,7 @@ function Educate (props) {
             <p className="sectionSubtitle last">Education is the first step to positive change, hopefully this page will give you some pointers on what you can do to contribute to that change.</p>
             <div className="cardContainer">
                 <CardDeck>
-                    <Card style={{ width: '18rem' }}>
+                    <Card style={{ width: '20rem' }}>
                         <Card.Body>
                             <Card.Title>Protest Safety</Card.Title>
                             <Card.Text>
@@ -28,7 +28,7 @@ function Educate (props) {
                             <Card.Link href="https://www.amnestyusa.org/pdfs/SafeyDuringProtest_F.pdf" target="_blank"><Button variant="primary">Go!</Button></Card.Link>
                         </Card.Body>
                     </Card>
-                    <Card style={{ width: '18rem' }}>
+                    <Card style={{ width: '20rem' }}>
                         <Card.Body>
                             <Card.Title>Ethnicity Pay Gap (UK)</Card.Title>
                             <Card.Text>
@@ -36,6 +36,18 @@ function Educate (props) {
                             </Card.Text>
                             <Card.Link href="https://youtu.be/1cp5QTRBpaY" target="_blank">Video</Card.Link>
                             <Card.Link href="https://www.equalityhumanrights.com/en/pay-gaps/ethnicity-what-does-pay-gap-look" target="_blank">Interactive Graphic</Card.Link>
+                        </Card.Body>
+                    </Card>
+                </CardDeck>
+                <br/>
+                <CardDeck>
+                    <Card style={{ width: '20rem' }}>
+                        <Card.Body>
+                            <Card.Title>Race, ethnicity and crime</Card.Title>
+                            <Card.Text>
+                                An Open University course (approx. 30mins long) briefly examining the relationships between race and ethnicity, and crime, criminalisation and criminal justice.
+                            </Card.Text>
+                            <Card.Link href="https://www.open.edu/openlearn/society-politics-law/race-ethnicity-and-crime/content-section-0?active-tab=description-tab" target="_blank"><Button variant="primary">Go!</Button></Card.Link>
                         </Card.Body>
                     </Card>
                 </CardDeck>
@@ -96,7 +108,7 @@ function DonateTime (props) {
     return(
         <div className="cardContainer">
             <CardDeck>
-                <Card style={{ width: '18rem' }}>
+                <Card style={{ width: '20rem' }}>
                     <Card.Body>
                         <Card.Title>Justice for George Floyd</Card.Title>
                         <Card.Text>
@@ -114,7 +126,7 @@ function DonateMoney (props) {
     return(
         <div className="cardContainer">
             <CardDeck>
-                <Card style={{ width: '18rem' }}>
+                <Card style={{ width: '20rem' }}>
                     <Card.Body>
                         <Card.Title>The Bail Project</Card.Title>
                         <Card.Text>
@@ -123,7 +135,7 @@ function DonateMoney (props) {
                         <a href="https://secure.givelively.org/donate/the-bail-project" target="_blank"><Button variant="primary">Go To Fundraiser</Button></a>
                     </Card.Body>
                 </Card>
-                <Card style={{ width: '18rem' }}>
+                <Card style={{ width: '20rem' }}>
                     <Card.Body>
                         <Card.Title>Black Lives Matter</Card.Title>
                         <Card.Text>
