@@ -1,0 +1,67 @@
+@import "custom";
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.App-header {
+    font-family: 'Nunito', sans-serif;
+    width: -webkit-calc(100% - 10px);
+    width:    -moz-calc(100% - 10px);
+    width:         calc(100% - 10px);
+    max-width: 700px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.content {
+    max-width: 700px;
+    width: -webkit-calc(100% - 10px);
+    width:    -moz-calc(100% - 10px);
+    width:         calc(100% - 10px);
+}
+
+.sectionSubtitle {
+    text-align: center;
+    max-width: 700px;
+}
+
+.sectionSubtitle.last {
+    margin-bottom: 20px;
+}
+
+.headerText {
+    font-size: 2em;
+    color: black;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-fill-color: white;
+    text-shadow: 1.75px 1.75px #00ff00;
+    text-decoration: none;
+}
+
+.selected {
+    -webkit-text-fill-color: black;
+}
+
+.cardContainer {
+    padding: 0px 20px;
+}
+
+#donateHeader {
+    text-decoration: none;
+    margin-left: auto;
+}
+
+#educateHeader {
+    text-decoration: none;
+}
+
+#google_translate_element {
+    margin-bottom: 20px;
+}
