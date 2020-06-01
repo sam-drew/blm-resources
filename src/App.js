@@ -25,7 +25,17 @@ function Educate (props) {
                             <Card.Text>
                                 Amnesty International's guide to staying safe during protests.
                             </Card.Text>
-                            <a href="https://www.amnestyusa.org/pdfs/SafeyDuringProtest_F.pdf" target="_blank"><Button variant="primary">Go!</Button></a>
+                            <Card.Link href="https://www.amnestyusa.org/pdfs/SafeyDuringProtest_F.pdf" target="_blank"><Button variant="primary">Go!</Button></Card.Link>
+                        </Card.Body>
+                    </Card>
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Body>
+                            <Card.Title>Ethnicity Pay Gap (UK)</Card.Title>
+                            <Card.Text>
+                                Ethnicity Pay Gap information from the Equality and Human Rights Comission.
+                            </Card.Text>
+                            <Card.Link href="https://youtu.be/1cp5QTRBpaY" target="_blank">Video</Card.Link>
+                            <Card.Link href="https://www.equalityhumanrights.com/en/pay-gaps/ethnicity-what-does-pay-gap-look" target="_blank">Interactive Graphic</Card.Link>
                         </Card.Body>
                     </Card>
                 </CardDeck>
@@ -88,20 +98,11 @@ function DonateTime (props) {
             <CardDeck>
                 <Card style={{ width: '18rem' }}>
                     <Card.Body>
-                        <Card.Title>Example Petition</Card.Title>
+                        <Card.Title>Justice for George Floyd</Card.Title>
                         <Card.Text>
-                            Donate your time by signing petitions and contacting politicians/authorities.
+                            Write to Minnesota Governor Tim Walz and call on USA authorities to make sure that all those responsible in the death of George Floyd and many others are held accountable.
                         </Card.Text>
-                        <Link to={``}><Button variant="primary">Go To Petition</Button></Link>
-                    </Card.Body>
-                </Card>
-                <Card style={{ width: '18rem' }}>
-                    <Card.Body>
-                        <Card.Title>Example Petition 2</Card.Title>
-                        <Card.Text>
-                            Donate your time by signing petitions and contacting politicians/authorities.
-                        </Card.Text>
-                        <Link to={``}><Button variant="primary">Go To Petition</Button></Link>
+                        <Card.Link href="https://www.amnesty.org/en/get-involved/take-action/george-floyd-police-violence-usa/" target="_blank"><Button variant="primary">Go To Petition</Button></Card.Link>
                     </Card.Body>
                 </Card>
             </CardDeck>
@@ -115,20 +116,20 @@ function DonateMoney (props) {
             <CardDeck>
                 <Card style={{ width: '18rem' }}>
                     <Card.Body>
-                        <Card.Title>Example Fundraiser</Card.Title>
+                        <Card.Title>The Bail Project</Card.Title>
                         <Card.Text>
-                            Donate your time by signing petitions and contacting politicians/authorities.
+                            USA based non-profit working to 'prevent incarceration and combat racial and economic disparities in the bail system'.
                         </Card.Text>
-                        <Link to={``}><Button variant="primary">Go To Fundraiser</Button></Link>
+                        <a href="https://secure.givelively.org/donate/the-bail-project" target="_blank"><Button variant="primary">Go To Fundraiser</Button></a>
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '18rem' }}>
                     <Card.Body>
-                        <Card.Title>Example Fundraiser 2</Card.Title>
+                        <Card.Title>Black Lives Matter</Card.Title>
                         <Card.Text>
-                            Donate your money to fundraisers acting for the benefit of the people.
+                            Support the movement and BLM's ongoing fight to end state-sanctioned violence, liberate Black people, and end white supremacy forever.
                         </Card.Text>
-                        <Link to={``}><Button variant="primary">Go To Fundraiser</Button></Link>
+                        <Card.Link href="https://secure.actblue.com/donate/ms_blm_homepage_2019" target="_blank"><Button variant="primary">Go To Fundraiser</Button></Card.Link>
                     </Card.Body>
                 </Card>
             </CardDeck>
