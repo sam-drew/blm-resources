@@ -1,21 +1,25 @@
 @import "custom";
 
+#root {
+    min-height: 100vh;
+}
+
+body {
+    margin: 0;
+}
+
 .App {
+    min-height: 99vh;
+    margin: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 5px;
-    width: -webkit-calc(100% - 10px);
-    width:    -moz-calc(100% - 10px);
-    width:         calc(100% - 10px);
 }
 
 .App-header {
     font-family: 'Nunito', sans-serif;
-    width: -webkit-calc(100% - 10px);
-    width:    -moz-calc(100% - 10px);
-    width:         calc(100% - 10px);
+    margin: 5px;
     max-width: 700px;
     display: flex;
     flex-direction: row;
@@ -24,9 +28,6 @@
 
 .content {
     max-width: 700px;
-    width: -webkit-calc(100% - 10px);
-    width:    -moz-calc(100% - 10px);
-    width:         calc(100% - 10px);
 }
 
 .sectionSubtitle {
@@ -54,6 +55,13 @@
 
 .cardContainer {
     padding: 0px 20px;
+}
+
+.footer {
+    margin-top: auto;
+    padding-top: 20px;
+    display: block;
+    text-align: center;
 }
 
 #donateHeader {
